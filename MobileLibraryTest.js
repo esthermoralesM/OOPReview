@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var MobileLibrary_1 = require("./MobileLibrary");
+var Mobile_1 = require("./Mobile");
+var nokia3210 = new Mobile_1.Mobile("Nokia3210", "3210", "Nokia", 32, "negro", false, 1, 500);
+var iphone3G = new Mobile_1.Mobile("iphone3G", "3G", "Iphone", 32, "blanco", false, 4, 900);
+var samsungGalaxy10 = new Mobile_1.Mobile("Samsung Galaxy", "Galaxy10", "Samsung", 32, "negro", true, 3, 800);
+var lgK10 = new Mobile_1.Mobile("LG K10 Galaxy", "K10", "LG", 32, "negro", false, 1, 120);
+var moviles = [nokia3210, iphone3G, samsungGalaxy10, lgK10];
+var m = new MobileLibrary_1.MobileLibrary("miLibreria", "China", moviles);
+m.totalPriceCalculation();
+console.log(m.getName());
+console.log(m.getLocation());
+console.log(m.getMobiles());
