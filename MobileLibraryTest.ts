@@ -14,6 +14,4 @@ console.log(m.getTotalPrice())
 console.log(m.getName());
 console.log(m.getLocation());
 console.log(m.getMobiles());
-
-console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
 m.printLibrary();
