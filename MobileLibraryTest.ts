@@ -9,7 +9,7 @@ let lgK10:Mobile=new Mobile("LG K10 Galaxy", "K10", "LG", 32, "negro", false, 1,
 let moviles: Mobile[] = [nokia3210, iphone3G, samsungGalaxy10, lgK10];
 
 let m:MobileLibrary = new MobileLibrary("miLibreria", "China", moviles);
-//m.totalPriceCalculation();
+
 console.log(m.getTotalPrice())
 console.log(m.getName());
 console.log(m.getLocation());
