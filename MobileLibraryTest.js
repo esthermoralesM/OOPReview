@@ -8,7 +8,10 @@ var samsungGalaxy10 = new Mobile_1.Mobile("Samsung Galaxy", "Galaxy10", "Samsung
 var lgK10 = new Mobile_1.Mobile("LG K10 Galaxy", "K10", "LG", 32, "negro", false, 1, 120);
 var moviles = [nokia3210, iphone3G, samsungGalaxy10, lgK10];
 var m = new MobileLibrary_1.MobileLibrary("miLibreria", "China", moviles);
-m.totalPriceCalculation();
+//m.totalPriceCalculation();
+console.log(m.getTotalPrice());
 console.log(m.getName());
 console.log(m.getLocation());
 console.log(m.getMobiles());
+console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+m.printLibrary();
